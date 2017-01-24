@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E4D84401E37065400F67996 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E4D843F1E37065400F67996 /* test.png */; };
 		5EA74A6D1E37006700EB8ABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA74A6C1E37006700EB8ABE /* main.m */; };
 		5EA74A701E37006700EB8ABE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA74A6F1E37006700EB8ABE /* AppDelegate.m */; };
 		5EA74A731E37006700EB8ABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA74A721E37006700EB8ABE /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E4D843F1E37065400F67996 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		5EA74A681E37006700EB8ABE /* downPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = downPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA74A6C1E37006700EB8ABE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EA74A6E1E37006700EB8ABE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		5EA74A6A1E37006700EB8ABE /* downPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				5E4D843F1E37065400F67996 /* test.png */,
 				5EA74A6E1E37006700EB8ABE /* AppDelegate.h */,
 				5EA74A6F1E37006700EB8ABE /* AppDelegate.m */,
 				5EA74A711E37006700EB8ABE /* ViewController.h */,
@@ -207,6 +210,7 @@
 				TargetAttributes = {
 					5EA74A671E37006600EB8ABE = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2W2PPP3KC9;
 						ProvisioningStyle = Automatic;
 					};
 					5EA74A801E37006700EB8ABE = {
@@ -249,6 +253,7 @@
 				5EA74A7B1E37006700EB8ABE /* LaunchScreen.storyboard in Resources */,
 				5EA74A781E37006700EB8ABE /* Assets.xcassets in Resources */,
 				5EA74A761E37006700EB8ABE /* Main.storyboard in Resources */,
+				5E4D84401E37065400F67996 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -422,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W2PPP3KC9;
 				INFOPLIST_FILE = downPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaok.downPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2W2PPP3KC9;
 				INFOPLIST_FILE = downPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaok.downPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +514,7 @@
 				5EA74A971E37006700EB8ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EA74A981E37006700EB8ABE /* Build configuration list for PBXNativeTarget "downPhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				5EA74A9A1E37006700EB8ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EA74A9B1E37006700EB8ABE /* Build configuration list for PBXNativeTarget "downPhotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				5EA74A9D1E37006700EB8ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
